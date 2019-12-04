@@ -26,19 +26,25 @@ public class PersonRecyclerViewList extends Fragment {
     private RecyclerView.LayoutManager layoutManager;
     Student student;
     Context context;
+    private MyAdapter myAdapter;
+
+    onRecyclerListener listener;
+
+
 
 
     int[] images={R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,
             R.drawable.bangladesh,R.drawable.bangladesh};
 
     String[] name=getResources().getStringArray(R.array.Country_name);
-    String[] pass=getResources().getStringArray(R.array.Country_name);
-    String[] emaail=getResources().getStringArray(R.array.Country_name);
+    String[] pass=getResources().getStringArray(R.array.pass);
+    String[] emaail=getResources().getStringArray(R.array.Email);
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
         this.context=context;
+        listener= (onRecyclerListener) context;
     }
 
     public PersonRecyclerViewList() {
@@ -66,9 +72,16 @@ public class PersonRecyclerViewList extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
 
         // specify an adapter (see also next example)
-        
 
-
-
+        recyclerView.setAdapter(myAdapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(context));
     }
+
+    public interface onRecyclerListener{
+        public void registrationButtonClidked();
+    }
+
+
+
+
 }

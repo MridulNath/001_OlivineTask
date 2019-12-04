@@ -16,4 +16,28 @@
         <item>Maldives</item>
         <item>Afganistan</item>
     </string-array>
+
+    <string-array name="Email">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+        <item>Sri-Lanka</item>
+        <item>Maldives</item>
+        <item>Afganistan</item>
+    </string-array>
+
+    <string-array name="pass">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Bhutan</item>
+        <item>Sri-Lanka</item>
+        <item>Maldives</item>
+        <item>Afganistan</item>
+    </string-array>
 </resources>

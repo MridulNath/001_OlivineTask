@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import static com.example.olivinetask.PersonRecyclerViewList.*;
+
 public class MainActivity extends AppCompatActivity implements SignUpFragment.onRegistrationListener {
     private BottomNavigationView mMainNav;
     private LogInFragment logInFragment;
@@ -76,11 +78,10 @@ public class MainActivity extends AppCompatActivity implements SignUpFragment.on
         personRecyclerViewList=new PersonRecyclerViewList();
         fragmentTransaction.replace(R.id.frameLayoutContainer, personRecyclerViewList);
         fragmentTransaction.commit();
-
-
     }
 
-   /* private void setFragment(Fragment fragment) {
+
+  /*  private void setFragment(Fragment fragment) {
         fragmentManager=getSupportFragmentManager();
         FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
         signUpFragment=new SignUpFragment();
