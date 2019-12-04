@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="navigationStyle">#03A9F4</color>
+
+    <color name="colorWhite">#ffff</color>
+    <color name="colorTransparent">#9AFFFFFF</color>
+    <color name="colorSignUp">#A40384F4</color>
+    <color name="backgroundForLogIn">#CB212BF3</color>
+    <color name="backgroundForLogoTint">#2196F3</color>
+    <color name="backgroundLogoTint">#C32196F3</color>
+    <color name="darkWhite">#A8FFFFFF</color>
+    <color name="colorBlueUsedTool">#8D03A9F4</color>
+</resources>
