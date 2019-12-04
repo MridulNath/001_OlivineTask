@@ -179,7 +179,7 @@
         app:layout_constraintCircleRadius="10dp"
         app:cardBackgroundColor="@color/darkWhite">
         <Button
-            android:id="@+id/btn"
+            android:id="@+id/SignUpBtn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/colorBlueUsedTool"

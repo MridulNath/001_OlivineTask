@@ -22,7 +22,7 @@ import com.google.android.material.textfield.TextInputEditText;
  */
 public class SignUpFragment extends Fragment {
     TextInputEditText nameET,passET,emailET;
-    Button btn;
+    Button SignUpBtn;
     Context context;
     onRegistrationListener listener;
 
@@ -44,9 +44,9 @@ public class SignUpFragment extends Fragment {
         nameET=view.findViewById(R.id.nameET);
         passET=view.findViewById(R.id.passET);
         emailET=view.findViewById(R.id.emailET);
-        btn=view.findViewById(R.id.btn);
+        SignUpBtn=view.findViewById(R.id.SignUpBtn);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        SignUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name=nameET.getText().toString();

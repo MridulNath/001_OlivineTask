@@ -27,6 +27,14 @@ public class PersonRecyclerViewList extends Fragment {
     Student student;
     Context context;
 
+
+    int[] images={R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,R.drawable.bangladesh,
+            R.drawable.bangladesh,R.drawable.bangladesh};
+
+    String[] name=getResources().getStringArray(R.array.Country_name);
+    String[] pass=getResources().getStringArray(R.array.Country_name);
+    String[] emaail=getResources().getStringArray(R.array.Country_name);
+
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);

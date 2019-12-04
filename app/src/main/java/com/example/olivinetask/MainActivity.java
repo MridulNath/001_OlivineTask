@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity implements SignUpFragment.on
 
     @Override
     public void registrationButtonClidked() {
-        fragmentManager=getSupportFragmentManager();
-        fragmentTransaction=fragmentManager.beginTransaction();
+        FragmentManager fragmentManager=getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
         personRecyclerViewList=new PersonRecyclerViewList();
         fragmentTransaction.replace(R.id.frameLayoutContainer, personRecyclerViewList);
         fragmentTransaction.commit();
